@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 800px;
+    background: url("../images/back1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 39px 0px 94px;
+    text-align: center;
+}
+
+
+.main .logo {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.main .logo .logo-text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+.main .title {
+    text-align: center;
+    padding-top: 30px;
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main .title-big {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.main .title-big:before {
+    content: '';
+    position: absolute;
+    top: 310px;
+    left: 200px;
+    height: 1px;
+    width: 250px;
+    background: white;
+}
+
+
+.main .title-big:after {
+    content: '';
+    position: absolute;
+    top: 310px;
+    right: 200px;
+    background: white;
+    height: 1px;
+    width: 250px;
+}
+
+h2.title {
+    padding-top: 20px;
+}
+
+.main .main-text {
+    color: #ffffff;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main .main-text span {
+    color: #f9bf3b;
+}
+
+.main button {
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    left: 833px;
+}
+
+.main .blueBTN {
+    width: 313px;
+    height: 72px;
+    background: #36B0D4;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.main a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.main a.link2 {
+    padding-top: 12px;
+}
+
+
+.intensive {
+    height: 600px;
+    background: #EFEFEF;
+    padding-top: 83px;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    color: #252525;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.intensive .line {
+    background: #f9bf3b;
+    width: 200px;
+    height: 2px;
+    margin: 10px auto;
+}
+
+h3:before {
+    content: '';
+    position: absolute;
+    bottom: 18px;
+    left: 115px;
+    height: 5px;
+    width: 218px;
+    color: #F9BF3B;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    color: #4A4A4A;
+    font-size: 23px;
+
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-box .box {
+    margin-right: 25px;
+}
+
+.box_box-img1 {
+    width: 339px;
+    height: 79px;
+    margin-top: 31px;
+    font-size: 15px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.box_box-img2 {
+    width: 339px;
+    height: 79px;
+    margin-top: 31px;
+    font-size: 15px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.box_box-img3 {
+    width: 339px;
+    height: 79px;
+    margin-top: 31px;
+    font-size: 15px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+
+.description {
+    background: url("../images/girl.png");
+    padding: 0;
+    width: 868px;
+    height: 502px;
+}
+
+.description .girl-text {
+    margin-top: 100px;
+    margin-left: 650px;
+    width: 725px;
+    color: #299CBD;
+    font-size: 33px;
+}
+
+.description .box-text {
+    width: 725px;
+    height: 291px;
+    color: #4a4a4a;
+    text-align: justify;
+    font-size: 17px;
+    padding: 0 50px;
+    margin: 20px 100px 102px 600px;
+    line-height: 24px;
+}
+
+.end {
+    height: 447px;
+    text-align: center;
+    padding: 0;
+    background: url("../images/back2.png") center/cover;
+}
+
+
+.end .end-text {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #efefef;
+}
+
+.end .line-2 {
+    width: 200px;
+    height: 3px;
+    background: #F9BF3B;
+    margin: 10px auto;
+}
+
+.end .flex-box {
+    display: flex;
+}
+
+.end .flex-box .icons-menu {
+    display: flex;
+
+}
+
+.end .flex-box .icons-menu .icons_item {
+    width: 116px;
+    height: 116px;
+    background: #B4E2FF;
+    margin-top: 60px;
+    margin-left: 70px;
+    list-style: none;
+    border-radius: 80px;
+}
+
+.icon1 {
+    width: 67px;
+    height: 48px;
+    margin: 38px 24px 30px 25px;
+}
+
+.icon2 {
+    width: 56px;
+    height: 57px;
+    margin: 32px 28px 27px 32px;
+}
+
+.icon3 {
+    width: 67px;
+    height: 48px;
+    margin: 38px 24px 30px 25px;
+}
+
+.icon4 {
+    width: 67px;
+    height: 48px;
+    margin: 38px 24px 30px 25px;
+}
+
+.icon5 {
+    width: 67px;
+    height: 48px;
+    margin: 38px 24px 30px 25px;
+}
+
+.icons_item .icon_text {
+    width: 210px;
+    height: 34px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.gift {
+    height: 629px;
+    background: url("../images/backgift.png");
+    text-align: center;
+}
+
+.gift .bantik {
+    margin-top: 87px;
+}
+
+.gift .giftpic {
+    width: 154px;
+    height: 113px;
+    margin-top: 1px;
+}
+
+.gift .gift_text {
+    font-size: 30px;
+    color: #252525;
+    width: 1132px;
+    height: 115px;
+    margin-left: 100px;
+    margin-top: 42px;
+    margin-bottom: 52px;
+}
+
+.gift .button {
+    width: 313px;
+    height: 72px;
+    background: #36AFD2;
+    margin-bottom: 87px;
+    border-radius: 5px;
+}
+
+.gift .button_text {
+    color: #FFFFFF;
+    font-size: 21px;
+}
+
+.firstweb {
+    text-align: center;
+    height: 520px;
+}
+
+.firstweb .backskype {
+    position: relative;
+    width: 342px;
+    height: 201px;
+    margin-top: 82px;
+}
+
+.firstweb .skype {
+    position: absolute;
+    margin-top: 89px;
+    margin-left: -299px;
+}
+
+.firstweb .firstweb_text {
+    color: #252525;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.firstweb .firstweb_text2 {
+    color: #299CBD;
+    font-size: 43px;
+    margin-top: 20px;
+}
+
+.firstweb .firstweb_text3 {
+    color: #4A4A4A;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    height: 167px;
+    background: #1A1A1A;
+}
+
+.footer .footer_text{
+    width: 550px;
+    height: 36px;
+    color: #888888;
+    font-size: 15px;
+    padding: 62px 0 0 69px;
+    margin-left: 400px;
+}
